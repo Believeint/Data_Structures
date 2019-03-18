@@ -94,7 +94,7 @@ echo "ESTÁ CHEIA? " . $MeusLivros->isFull();
 echo '<hr>';
 
 
-echo '<strong>Itens na Pilha: </strong>';
+echo '<b>Itens na Pilha: </b>';
 echo '<br>';
 echo '<br>';
 foreach ($MeusLivros->pilha as $key => $value) {
